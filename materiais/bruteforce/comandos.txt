@@ -1,0 +1,7 @@
+# cria a lista de usuários (no diretório atual)
+
+echo -e "user\nmsfadmin\nadmin\nroot" > users.txt
+
+# cria a lista de senhas (no diretório atual)
+
+echo -e "123456\npassword\nqwerty\nmsfadmin" > pass.txt

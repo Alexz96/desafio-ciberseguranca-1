@@ -1,0 +1,15 @@
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: user (1 of 3, 0 complete) Password: 123456 (1 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: user (1 of 3, 0 complete) Password: password (2 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: user (1 of 3, 0 complete) Password: Welcome123 (3 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: user (1 of 3, 1 complete) Password: msfadmin (4 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: msfadmin (2 of 3, 1 complete) Password: password (1 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: msfadmin (2 of 3, 1 complete) Password: 123456 (2 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: msfadmin (2 of 3, 1 complete) Password: msfadmin (3 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT FOUND: [smbnt] Host: 192.168.100.98 User: msfadmin Password: msfadmin [SUCCESS (ADMIN$ - Access Allowed)]
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: msfadmin (2 of 3, 2 complete) Password: Welcome123 (4 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: service (3 of 3, 2 complete) Password: password (1 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: service (3 of 3, 2 complete) Password: 123456 (2 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: service (3 of 3, 2 complete) Password: msfadmin (3 of 4 complete)
+2026-11-22 14:50:43 ACCOUNT CHECK: [smbnt] Host: 192.168.100.98 (1 of 1, 0 complete) User: service (3 of 3, 3 complete) Password: Welcome123 (4 of 4 complete)
